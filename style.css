@@ -9,11 +9,27 @@ body {
     background-color: #f0f0f0;
 }
 
+body {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
 .content-wrapper { /* Added wrapper for content layout */
     text-align: center; /* Center the heading and paragraph */
     width: 80%; /* Limit width of content */
     max-width: 1200px; /* Set a maximum width */
     margin: 20px auto; /* Center the content wrapper */
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
 }
 
 h1 {
@@ -98,3 +114,15 @@ th, td {
 .card h2 {
     margin-top: 0;
 }
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .dark-mode-toggle {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Add more specific dark mode styles as needed */
