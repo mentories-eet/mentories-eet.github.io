@@ -3,6 +3,18 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -55,6 +67,16 @@ h1, h2 {
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .dark-mode-toggle {
+    background-color: #fff;
+    color: #333;
 }
 
 @media screen and (max-height: 450px) {
