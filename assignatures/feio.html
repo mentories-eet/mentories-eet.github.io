@@ -7,24 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles/feio.css">
     <link rel="icon" href="../assets/favicon.png" type="image/png">
-    <script>
-        // Check for dark mode preference in local storage
-        const isDarkMode = localStorage.getItem('darkMode') === 'true';
-
-        // Apply dark mode if necessary
-        if (isDarkMode) {
-            document.body.classList.add('dark-mode');
-        }
-
-        // Toggle dark mode on button click
-        const toggleButton = document.querySelector('.dark-mode-toggle');
-
-        toggleButton.addEventListener('click', () => {
-            const isDarkMode = !document.body.classList.contains('dark-mode');
-            localStorage.setItem('darkMode', isDarkMode);
-            document.body.classList.toggle('dark-mode');
-        });
-    </script>
 </head>
 <body>
     <button class="dark-mode-toggle"><i class="fa-solid fa-moon"></i></button>
@@ -35,6 +17,7 @@
             <a href="./compos.html">Components i Circuits Electrònics</a>
             <a href="./edos.html">Equacions Diferencials i Càlcul Vectorial</a>
             <a href="./feio.html">Fonaments d'Electromagnetisme i Òptica</a>
+            <a href="./calc2.html">Càlcul de Diverses Variables</a>
             <a href="./emag.html">Electromagnetisme</a>
             <a href="./ef.html">Electrònica Física</a>
             <a href="mailto:ababiano7@alumnes.ub.edu"><i class="fas fa-envelope"></i> Contact</a>

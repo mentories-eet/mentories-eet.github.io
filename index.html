@@ -6,25 +6,7 @@
     <title>Mentories Enginyeria Electrònica de Telecomunicació</title>
     <link rel="icon" href="./assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>
-        // Check for dark mode preference in local storage
-        const isDarkMode = localStorage.getItem('darkMode') === 'true';
-
-        // Apply dark mode if necessary
-        if (isDarkMode) {
-            document.body.classList.add('dark-mode');
-        }
-
-        // Toggle dark mode on button click
-        const toggleButton = document.querySelector('.dark-mode-toggle');
-
-        toggleButton.addEventListener('click', () => {
-            const isDarkMode = !document.body.classList.contains('dark-mode');
-            localStorage.setItem('darkMode', isDarkMode);
-            document.body.classList.toggle('dark-mode');
-        });
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <div class="content-wrapper">
@@ -69,6 +51,12 @@
                     <td>TBA</td>
                 </tr>
                 <tr>
+                    <td>Càlcul de Diverses Variables</td>
+                    <td>TBA</td>
+                    <td>TBA</td>
+                    <td>TBA</td>
+                </tr>
+                <tr>
                     <td>Electromagnetisme</td>
                     <td>TBA</td>
                     <td>TBA</td>
@@ -86,8 +74,9 @@
             <a href="./assignatures/compos.html" class="card card-red"><h2>Components i Circuits Electrònics</h2><p>Content 1</p></a>
             <a href="./assignatures/edos.html" class="card card-blue"><h2>Equacions Diferencials i Càlcul Vectorial</h2><p>Content 2</p></a>
             <a href="./assignatures/feio.html" class="card card-green"><h2>Fonaments d'Electromagnetisme i Òptica</h2><p>Content 3</p></a>
-            <a href="./assignatures/emag.html" class="card card-teal"><h2>Electromagnetisme</h2><p>Content 4</p></a>
-            <a href="./assignatures/ef.html" class="card card-brown"><h2>Electrònica Física</h2><p>Content 5</p></a>
+            <a href="./assignatures/calc2.hmtl" class="card card-purple"><h2>Càlcul de Diverses Variables</h2><p>Content 4</p></a>
+            <a href="./assignatures/emag.html" class="card card-teal"><h2>Electromagnetisme</h2><p>Content 5</p></a>
+            <a href="./assignatures/ef.html" class="card card-brown"><h2>Electrònica Física</h2><p>Content 6</p></a>
         </div>
     </div>
     <script src="script.js"></script>
