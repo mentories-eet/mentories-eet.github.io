@@ -82,10 +82,13 @@ h1, h2 {
 .table-resistors {
     border-collapse: collapse;
     empty-cells: hide;
+    justify-content: center;
+    width: 50%
 }
 
 .r-negre {
     background-color: black;
+    color: white;
 }
 
 .r-marro {
