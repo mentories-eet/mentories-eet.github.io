@@ -79,6 +79,63 @@ h1, h2 {
     color: #333;
 }
 
+.table-resistors {
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+.r-negre {
+    background-color: black;
+}
+
+.r-marro {
+    background-color: brown;
+}
+
+.r-vermell {
+    background-color: red;
+}
+
+.r-taronja {
+    background-color: orange;
+}
+
+.r-groc {
+    background-color: yellow;
+}
+
+.r-verd {
+    background-color: green;
+}
+
+.r-blau {
+    background-color: blue;
+}
+
+.r-violeta {
+    background-color: purple;
+}
+
+.r-gris {
+    background-color: grey;
+}
+
+.r-blanc {
+    background-color: white;
+}
+
+.r-daurat {
+    background-color: gold;
+}
+
+.r-platejat {
+    background-color: silver;
+}
+
+.r-rosa {
+    background-color: pink;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

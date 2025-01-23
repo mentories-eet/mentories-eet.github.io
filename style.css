@@ -48,10 +48,13 @@ h1 {
     justify-content: center;
     gap: 20px;
     margin-top: 20px; /* Add some top margin */
+    overflow-x: auto;
 }
 
 table {
     border-spacing: 10px;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 tr {
@@ -62,9 +65,14 @@ tr:hover {background-color: #c0e8e8;}
 
 th, td {
     padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    text-align: center;
 }
 
 .card-container {
