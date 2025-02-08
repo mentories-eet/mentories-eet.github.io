@@ -41,6 +41,10 @@ h1, h2 {
     font-weight: bold;
 }
 
+.sidenav a:nth-last-child(2) {
+    font-weight: bold;
+}
+
 .sidenav a:last-child {
     font-weight: bold;
 }
